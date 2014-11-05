@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?asciidoc-toc?>
+<?asciidoc-numbered?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0" lang="en">
+<info>
+<title>Sample Asciidoctor</title>
+<date>2014-11-05</date>
+</info>
+<simpara>Writing documentation with Asciidoctor is awesome
+sample for JFall 2014.</simpara>
+<section xml:id="_tasks">
+<title>Tasks</title>
+<itemizedlist>
+<listitem>
+<simpara>Presentation</simpara>
+</listitem>
+<listitem>
+<simpara>Demo</simpara>
+</listitem>
+</itemizedlist>
+<tip>
+<simpara>Try <link xlink:href="http://asciidoctor.org">Asciidoctor</link> and see if you like it</simpara>
+</tip>
+<programlisting language="java" linenumbering="unnumbered">System.out.println("Some code");</programlisting>
+</section>
+</article>
