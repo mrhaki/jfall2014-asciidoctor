@@ -29,6 +29,6 @@ task presentation(type: AsciidoctorTask) {
     requires = ['slim', 'thread_safe']
     options = [
         template_engine: 'slim',
-        template_dirs: [project.getProperty('template_dir')]
+        template_dirs: ['src/templates']
     ]
 }
