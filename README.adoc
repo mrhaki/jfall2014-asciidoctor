@@ -4,7 +4,9 @@ Presentation and code samples for Awesome Asciidoctor at JFall 2014.
 
 == Presentation
 
-To view the presentation run the following commands:
+To view the presentation you can open `presentation.html` from the `presentation` directory.
+
+To build the presentation run the following commands:
 
 ....
 $ ./gradlew presentation
@@ -17,6 +19,7 @@ $ open build/asciidoc/presentation.html
 ....
 
 The presentation source is in `src/asciidoc/presentation.adoc`.
+
 
 == Samples
 
