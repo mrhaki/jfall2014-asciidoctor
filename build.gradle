@@ -28,7 +28,7 @@ task presentation(type: AsciidoctorTask) {
     sourceDocumentNames = files('src/asciidoc/presentation.adoc')
     requires = ['slim', 'thread_safe']
     options = [
-        template_engine: 'slim',
-        template_dirs: ['src/templates']
+        //template_engine: 'slim',
+        template_dirs: ['../templates']
     ]
 }
